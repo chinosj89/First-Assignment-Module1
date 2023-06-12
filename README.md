@@ -9,11 +9,8 @@ This assignment is done to test us of our knowledge of week 1's lessons; We are 
 
 ##
 What I have done is to first go line by line in both CSS and HTML
-* I removed unneccessary elements such as the color for:
-  .header h1 .seo {
-    color: #d9dcd6;
-* Since i found it somewhat unnecessary since the color has been created under this class:
-  .header 
+* I removed unneccessary elements such as the color below, the element has been defined by class "header"
+  ![image](https://github.com/chinosj89/First-Assignment-Module1/assets/131737817/9b634853-5eec-4d5c-8bbd-5a0488345e2e)
 
 * I also grouped multiple elements together with under the same name 
 i.e
