@@ -23,7 +23,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 } 
-    removed this because .header is already created with the same color
+    removed this because because span was removed; no longer necessary
 */
 .header div {
     padding-top: 15px;
