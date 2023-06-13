@@ -1,5 +1,5 @@
-# First-Assignment-Module1
-## First HTML-CSS Assignment
+# Horiseon-Refecatored
+## First HTML-CSS Assignment Module 1
 
 This assignment is done to test us of our knowledge of week 1's lessons; We are to to be tested in checking a website's "Accessibility"
 -Given the Acceptance criteria:
