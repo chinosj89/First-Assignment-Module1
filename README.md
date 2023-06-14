@@ -17,6 +17,10 @@ i.e
   ![image](https://github.com/chinosj89/First-Assignment-Module1/assets/131737817/13a05a5c-71de-489a-84e4-dbb7a23e0219)
 * I have commented as well my thought process in the CSS file as to why I didn't group all the elements together even though they have the same CSS property
 * I also created an alt image attribute on the image files which was part of the acceptance criteria for this assignment
+
+After some careful studying I found that you are able to group elements together if they will be given the same property and value:
+  ![image](https://github.com/chinosj89/Horiseon-Refactored/assets/131737817/66fccce7-bbdc-418e-b0fa-c8a74dbad781)
+
 ##
 Here is the link for the website: 
-https://chinosj89.github.io/First-Assignment-Module1/
+https://chinosj89.github.io/Horiseon-Refactored/
