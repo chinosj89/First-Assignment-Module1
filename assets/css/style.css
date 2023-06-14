@@ -76,9 +76,9 @@ p {
     margin-left: 20px;
 }
 
-/* Starting here, moved and grouped same name elements */
+        /* Starting here, moved and grouped same name elements - please refer below to new change done*/
 
-/* Search Engine Optimization */
+/* Search Engine Optimization 
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -97,7 +97,7 @@ p {
         font-size: 36px;
 }    
 
-/* Online Reputation Management*/
+/* Online Reputation Management
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -116,7 +116,8 @@ p {
 }
 
 
-/*Social Media Marketing*/
+/*Social Media Marketing
+
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -135,10 +136,38 @@ p {
     font-size: 36px;
 }
 
-/* Ending here - moved entire elements for easier reading and to match HTML*/
-/* Tried to group the elements under 1 class but realized you will have to reference them on the nav bar. 
-Tried to reference nav bar with using keywords (using span like in seo) instead so when I clicked the nav, it would go to the header, but it would go straight to the keyword and would leave out the border
-decided to just leave this as is and just group them based on class*/
+        /* Ending here - moved entire elements for easier reading and to match HTML*/
+                /* Tried to group the elements under 1 class but realized you will have to reference them on the nav bar. 
+                    Tried to reference nav bar with using keywords (using span like in seo) instead so when I clicked the nav, it would go to the header, but it would go straight to the keyword and would leave out the border
+                        decided to just leave this as is and just group them based on class*/
+
+            /* Learned a new way to group elements with same values - noted on line 79  */
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+
+}
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2, {
+        margin-bottom: 20px;
+        font-size: 36px;
+}    
+            /*Changed above line and will apply to .benefits as well*/
+
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -150,27 +179,33 @@ decided to just leave this as is and just group them based on class*/
     background-color: #2589bd;
 }
 
-/* Grouped element together*/
+/* Grouped element together - same with above classes*/
 
 /* Benefit-lead*/
-.benefit-lead {
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*Benefit brand*/
-
+/*
+/*Benefit brand
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -185,7 +220,7 @@ decided to just leave this as is and just group them based on class*/
     margin: 10px auto;
     max-width: 150px;
 }
-/*Benefit Cost*/
+/*Benefit Cost
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -200,7 +235,7 @@ decided to just leave this as is and just group them based on class*/
     margin: 10px auto;
     max-width: 150px;
 }
-
+*/
 
 .footer {
     padding: 30px;
@@ -212,3 +247,5 @@ decided to just leave this as is and just group them based on class*/
 .footer h2 {
     font-size: 20px;
 }
+
+
