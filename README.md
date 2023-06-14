@@ -21,7 +21,7 @@ i.e
 ## Final Submission
 After some careful studying I found that you are able to group elements together if they will be given the same property and value:
   ![image](https://github.com/chinosj89/Horiseon-Refactored/assets/131737817/66fccce7-bbdc-418e-b0fa-c8a74dbad781)
-I have removed most <div> in the HTML and have better named each elment
+I have removed most "div" in the HTML and have better named each elment
   ![image](https://github.com/chinosj89/Horiseon-Refactored/assets/131737817/789838fc-67e7-4bf2-aeb4-a0bec97a87ff)
 
 ##
